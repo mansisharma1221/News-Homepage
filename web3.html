@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Bright Future of Web 3.0?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #fefefe;
+        color: #222;
+        line-height: 1.8;
+      }
+
+      header {
+        background-color: #fff;
+        padding: 1rem 2rem;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .logo {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #f15e3c;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        margin-top: 0.5rem;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #444;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+
+      nav ul li a:hover {
+        color: #f15e3c;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        color: #f15e3c;
+        margin: 2rem 0 1rem;
+      }
+
+      p {
+        font-size: 1.05rem;
+        color: #444;
+        margin-bottom: 1.5rem;
+      }
+
+      .section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin: 2.5rem 0;
+        align-items: center;
+      }
+
+      .section img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        flex: 1 1 100%;
+      }
+
+      .section.reverse {
+        flex-direction: row-reverse;
+      }
+
+      .section .text {
+        flex: 1 1 100%;
+      }
+
+      .quote {
+        font-style: italic;
+        color: #666;
+        padding-left: 1rem;
+        border-left: 3px solid #f15e3c;
+        margin: 2rem 0;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 3rem;
+        text-decoration: none;
+        color: #f15e3c;
+        font-weight: bold;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem;
+        color: #888;
+        font-size: 0.9rem;
+        border-top: 1px solid #eee;
+        margin-top: 4rem;
+      }
+
+      /* ✅ RESPONSIVE */
+      @media (min-width: 768px) {
+        .section {
+          flex-wrap: nowrap;
+        }
+
+        .section .text {
+          flex: 1;
+        }
+
+        .section img {
+          width: 40%;
+          flex: none;
+        }
+
+        .section.reverse {
+          flex-direction: row-reverse;
+        }
+
+        h1 {
+          font-size: 2.8rem;
+        }
+
+        h2 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 🧭 Navbar -->
+    <header>
+      <div class="logo">W.News</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 📄 Article -->
+    <main class="container">
+      <h1>The Bright Future of Web 3.0?</h1>
+
+      <p>
+        The next era of the internet is here — Web 3.0. It's not just a trend,
+        it's a transformation of how users interact with data, platforms, and
+        each other. Built on blockchain, Web 3.0 empowers users with ownership,
+        decentralization, and privacy.
+      </p>
+
+      <div class="section">
+        <img src="images/web3.jpg" alt="Web 3 Overview" />
+        <div class="text">
+          <h2>From Users to Owners</h2>
+          <p>
+            Web 2.0 made us creators, but Web 3.0 makes us owners. With NFTs,
+            token economies, and DAOs, users hold real stake in the platforms
+            they use.
+          </p>
+          <p>
+            This shift redefines online participation. You're no longer just
+            using an app — you’re part of its future.
+          </p>
+        </div>
+      </div>
+
+      <div class="quote">
+        “Web 3.0 empowers people to own their identity, their content, and their
+        value.”
+      </div>
+
+      <div class="section reverse">
+        <img src="images/blockchain.jpg" alt="Blockchain Tech" />
+        <div class="text">
+          <h2>Built on Trustless Infrastructure</h2>
+          <p>
+            Blockchain ensures that transactions and records are secure and
+            transparent. No middlemen, no gatekeepers — just open protocols
+            verified by code.
+          </p>
+          <p>
+            Smart contracts automate rules and eliminate bias, making platforms
+            fairer and safer for everyone.
+          </p>
+        </div>
+      </div>
+
+      <div class="section">
+        <img src="images/ai.avif" alt="Web3 Future" />
+        <div class="text">
+          <h2>Challenges We Must Overcome</h2>
+          <p>
+            Adoption isn’t easy. Web 3.0 faces high gas fees, complex wallets,
+            and regulation debates. User experience still lags behind Web 2.0
+            apps.
+          </p>
+          <p>
+            But with Layer 2 solutions, cross-chain bridges, and better UX, the
+            space is rapidly improving.
+          </p>
+        </div>
+      </div>
+
+      <div class="section reverse">
+        <img src="images/innovation.jpg" alt="Innovation" />
+        <div class="text">
+          <h2>Innovation is Community-Driven</h2>
+          <p>
+            Open-source collaboration is fueling rapid innovation. Communities,
+            not corporations, are shaping what comes next.
+          </p>
+          <p>
+            Whether it’s decentralized finance (DeFi), gaming (GameFi), or
+            social media — the power is in the hands of the people.
+          </p>
+        </div>
+      </div>
+
+      <h2>So, Is Web 3.0 the Future?</h2>
+      <p>
+        It’s still early. But the promise is real. A user-owned internet where
+        privacy, freedom, and fairness are embedded — not optional.
+      </p>
+      <p>Web 3.0 isn’t just the future. It’s already happening.</p>
+
+      <a href="index.html" class="back-link">← Back to Homepage</a>
+    </main>
+
+    <!-- 🔚 Footer -->
+    <footer>&copy; 2025 W.News. All rights reserved.</footer>
+  </body>
+</html>
